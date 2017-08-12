@@ -1,0 +1,56 @@
+.cccy,
+.cccy-h1,
+.cccy-h2 {
+  box-sizing: border-box;
+}
+
+.cccy {
+  margin: 0;
+  padding: 0;
+  clear: both;
+  border-left: 0.6rem solid #08B589;
+  overflow: hidden;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+.cccy-h1 {
+  display: inline;
+  float: left;
+  margin: 0 0 0 1rem;
+  padding: 0;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.cccy-h2 {
+  display: inline;
+  float: left;
+  margin: 0 0 0 1rem;
+  padding: 0;
+  font-size: 1.1rem;
+  line-height: 3rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.cccy-text {
+  display: inline;
+  float: right;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 3rem;
+  color: #666;
+}
