@@ -1,7 +1,9 @@
 .cccy,
 .cccy-h1,
-.cccy-h2 {
+.cccy-h2,
+.cccy-text {
   box-sizing: border-box;
+  background-clip: border-box;
 }
 
 .cccy {
@@ -13,9 +15,8 @@
 
   a {
     text-decoration: none;
-    color: inherit;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 1em;
+    margin-right: 1em;
   }
   a:hover {
     text-decoration: underline;
@@ -31,6 +32,9 @@
   line-height: 3rem;
   font-weight: bold;
   color: #333;
+  a {
+    color: #333;
+  }
 }
 
 .cccy-h2 {
@@ -42,6 +46,9 @@
   line-height: 3rem;
   font-weight: bold;
   color: #333;
+  a {
+    color: #333;
+  }
 }
 
 .cccy-text {
@@ -53,4 +60,7 @@
   font-weight: normal;
   line-height: 3rem;
   color: #666;
+  a {
+    color: #666;
+  }
 }
